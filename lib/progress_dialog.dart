@@ -236,7 +236,7 @@ class _BodyState extends State<_Body> {
             Align(
               alignment: Alignment.bottomRight,
               child: Text(
-                "$_progress/$_maxProgress",
+                "${_progress}% / ${_maxProgress}%",
                 style: _progressTextStyle,
                 textDirection: _direction,
               ),
